@@ -1,0 +1,105 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9); /* Teal to light green */
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffffde;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  text-align: center;
+  color: #004d40; /* Deep Teal */
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+input,
+select {
+  padding: 12px;
+  border: 1px solid #b2dfdb;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.add-btn {
+  background: #00796b; /* Teal */
+  color: #fff;
+}
+
+button.add-btn:hover {
+  background: #004d40;
+}
+
+button.edit-btn {
+  background: #0288d1; /* Light Blue */
+  color: #fff;
+}
+
+button.edit-btn:hover {
+  background: #01579b;
+}
+
+button.delete-btn {
+  background: #c62828; /* Deep Red */
+  color: #fff;
+}
+
+button.delete-btn:hover {
+  background: #b71c1c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #00695c; /* Teal */
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f4c3; /* Light lime */
+}
+
+tr:hover {
+  background-color: #e6ee9c;
+}
